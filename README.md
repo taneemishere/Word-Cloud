@@ -30,3 +30,6 @@ For generating this word cloud, I will be using a data set that was originally c
 The file 'Youtube05-Shakira.csv' is a data set that consists of 5 columns such as the COMMENT ID, AUTHOR, DATE, CONTENT and CLASS. The ‘CONTENT’ and ‘CLASS’ columns are used to build a machine learning model to classify a message if it is a spam message or not.
 For generating our word cloud, I will be using only words in the ‘CONTENT’ column.
 
+## Screenshots
+![Sample 1](https://github.com/taneemishere/Word-Cloud/blob/master/sample%201.png)
+![Sample 2](https://github.com/taneemishere/Word-Cloud/blob/master/sample%202.png)
