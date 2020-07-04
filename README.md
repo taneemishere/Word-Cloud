@@ -5,7 +5,7 @@ A python program that makes you the cloud full of words and joy 😛.
 ### Step 1: Importing the Libraries
 The first step in any python program will always be on importing the libraries. For this code we will require only three libraries, out of which two should already have been installed in your Python workspace. The only library to be additionally installed before this program is the ‘wordcloud’ library which can be easily installed using the ‘pip’ command. Also keep in mind that if you didn't install the Visual Studio C++ desktop development, chances are high that this wordcloud won't work i-e it won't be install.
 
-### Step 2 Reading the Data File
+### Step 2: Reading the Data File
 In the next step, we will read the data file (the .csv file) and store in into a Pandas DataFrame. The pandas data frames are always easier and faster to use when working with large datasets. The column required for our word cloud generation can be easily accessed from the pandas data frame.
 
 ### Step 3: Setting the comment and stop words
