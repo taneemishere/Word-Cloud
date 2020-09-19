@@ -15,9 +15,9 @@ The ‘stop_words’ is used to store all the words that are very commonly used 
 
 ### Step 4: Iterating through the data file
 Now that we have stored the data file into a pandas dataframe, we now have to convert each row of the ‘CONTENT’ column to a very long, single line of text.
-The first step in this will be to split each word in a row ( a comment has a finite number of words) and store it in a variable. separate = i.split()
-After splitting the words, for homogeneity of all the words, we convert all the words to lowercase using the .lower() function.
-Finally, we join all the words and store it to the variable ‘comment_words’ using the function .join() The variable ‘comment_words’ now contains all the words in a single long text necessary to generate our word cloud.
+The first step in this will be to split each word in a row ( a comment has a finite number of words) and store it in a variable. ```separate = i.split()```
+After splitting the words, for homogeneity of all the words, we convert all the words to lowercase using the ```.lower()``` function.
+Finally, we join all the words and store it to the variable ‘comment_words’ using the function ```.join()``` The variable ‘comment_words’ now contains all the words in a single long text necessary to generate our word cloud.
 
 ### Step 5: Creating the Word Cloud
 In this step, we finally generate the word cloud using the ‘WordCloud’ function. In this we will be using the two variables ‘stop_words’ and ‘comment_words’. The code is self-explanatory and easy to understand.
